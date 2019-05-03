@@ -1,0 +1,67 @@
+<?xml version="5.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.example.nz.firstclass.MainActivity">
+
+    <TextView
+        android:id="@+id/textOne"
+        android:textColor="0000"
+        android:freezesText="true"
+        android:textSize="25sp"
+        android:padding="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello ! Shaid Azmin "
+        android:textIsSelectable="true"
+
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textTwo"
+        android:textColor="0000"
+        android:padding="10sp"
+        android:freezesText="true"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="what are you doing..? "
+        android:textIsSelectable="true"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@color/colorPrimary"/>
+
+<Button
+
+    android:id="@+id/buttonOne"
+   android:background="#ffff"
+    android:layout_width="90sp"
+    android:layout_height="40sp"
+    android:layout_margin="10sp"
+
+    android:text="Click"
+    android:textColor="0000"
+    android:textAllCaps="false"
+    android:textStyle="bold|italic"
+    android:textSize="25sp"
+    android:drawableLeft="@drawable/output"
+    />
+
+    <Button
+        android:id="@+id/buttonTwo"
+     android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:text="Toast"
+        android:textColor="00000"
+        android:textStyle="bold|italic"
+        android:textAllCaps="false"
+        android:background="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
